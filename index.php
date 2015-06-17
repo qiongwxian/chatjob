@@ -1,7 +1,13 @@
 ﻿<?php
-require_once "jssdk.php";
-$jssdk = new JSSDK("wx86ba1a40612ced7a", "70f6a6f8d961181bdc218fb9d2c5c98b");
-$signPackage = $jssdk->GetSignPackage();
+/*if (!false/*stristr($_SERVER['HTTP_USER_AGENT'],"MicroMessenger")){
+	$url = "http://www.a.com";
+	Header("Location: $url");
+}
+else{*/
+	require_once "jssdk.php";
+	$jssdk = new JSSDK("wx86ba1a40612ced7a", "70f6a6f8d961181bdc218fb9d2c5c98b");
+	$signPackage = $jssdk->GetSignPackage();
+
 ?>
 <!DOCTYPE html> 
 <head>

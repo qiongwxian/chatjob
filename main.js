@@ -5,8 +5,8 @@ var gameTime1,gameTime2,gameTime3;
 var temp;
 var totScore = 0;
 var totTime = 30;
-var linkUrl = '';//分享到朋友圈的链接;
-var ImgUrl = 'img/logo.png';//链接显示的图片
+var linkUrl = 'http://www.chatjob.com.cn';//分享到朋友圈的链接;
+var ImgUrl = 'http://www.chatjob.com.cn/img/logo.png';//链接显示的图片
 var timeStamp,nStr,mySignature;
 
 window.onload = function()
