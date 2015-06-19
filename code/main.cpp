@@ -9,7 +9,7 @@ int main()
 	ifstream input;
 	ofstream output;
 	input.open("data4.txt");
-	output.open("out3-385.txt");
+	output.open("out4-385.txt");
 	VCRP vcrp;
 	vcrp.setInputFile(&input);
 	vcrp.setOutputFile(&output);
